@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SecurityController extends AbstractController
 {
-    #[Route('/login', name: 'security.login', methods: ['GET','POST'])]
+    #[Route('/login', name: 'security.login', methods: ['GET', 'POST'])]
     public function index(): Response
     {
         return $this->render('Dashboard/security/index.html.twig', [

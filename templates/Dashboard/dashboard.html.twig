@@ -1,19 +1,15 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Accueil{% endblock %}
+{% block title %}{{ 'dashboard.title'|trans }}{% endblock %}
 
 {% block body %}
-    <h1>Hello {{ controller_name }}! ✅</h1>
-    <div {{ vue_component('Hello', { 'name':controller_name }) }}></div>
-  
+    <div {{ vue_component('Dashboard')}}></div>
 {% endblock %}
 
 {% block stylesheets %}
 {{ parent() }}
-    {{ encore_entry_link_tags('app') }}
 {% endblock %}
 
 {% block javascripts %}
 {{ parent() }}
-{{ encore_entry_script_tags('app') }}
 {% endblock %}
