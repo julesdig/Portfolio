@@ -1,0 +1,116 @@
+{
+    "footer":{
+        "adress":"Mendigoules, 43190 Tence, France ",
+        "about": "2023 - Jules Digonnet | ",
+        "TermsOfUse": "Mentions légales"
+    },
+    "navbar":{
+        "home":"home",
+        "compagny": "Mon Entreprise",
+        "study": "Ma formation",
+        "skills": "Mes projets"
+    },
+    "dashboard":{
+        "title": "Accueil",
+        "introducing":{
+            "study": "Data Engineering",
+            "intership": "en Alternance"
+        },
+        "compagny":{
+            "title": "Mon Entreprise",
+            "texte":{
+                "title":"DATIPLUS l’expert n°1 pour protéger les travailleurs isolés.",
+                "part1":"Avec notre marque commerciale DATIPLUS,nous protégeons les salariés isolés de plus de 1 500 entreprises.",
+                "part2": "Confortables, nos solutions s’adaptent à tous. La protection se fait oublier. Des capteurs de mouvements détectent en permanence l’activité du porteur.",
+                "part3": "Des algorithmes d’intelligence artificielle traitent ces données pour apprendre les habitudes de chaque utilisateur et mieux détecter les situations anormales (chute, moindre activité, réveil tardif…).",
+                "part4": "Dès qu’une situation de détresse est détectée, l’alerte est transmise à des contacts de l’entreprise ou à un PC de sécurité."
+            } 
+        },
+        "study":{
+            "title": "Ma formation",
+            "units":"Modules :",
+            "BTS": {
+                "title": "BTS SIO",
+                "date": "2020 - 2022",
+                "development": {
+                    "title": "Développement Logiciel et Applications",
+                    "texte" : "Apprentissage des langages de programmation (Java, C#, PHP, Python,Html,Css.).Création d'applications logicielles répondant aux besoins des organisations.Conception, modélisation et intégration de solutions informatiques."
+                },
+                "projectManagement": {
+                    "title": "Gestion de Projets Informatiques",
+                    "texte" : "Utilisation de méthodologies de gestion de projets (agile, scrum, etc.).Planification, suivi et gestion des projets de développement informatique.Intégration et déploiement des logiciels dans l'environnement organisationnel."
+                },
+                "dataBase": {
+                    "title": "Bases de Données et Systèmes Informatiques",
+                    "texte" : "Conception, création et gestion de bases de données.Compréhension des principes et fonctionnement des systèmes informatiques.Administration et maintenance des réseaux informatiques."
+                },
+                "communication": {
+                    "title": "Communication, Support Technique et Travail d'Équipe",
+                    "texte" : "Bonne communication et compréhension des besoins des utilisateurs.Support technique aux utilisateurs et aux équipes internes.Capacité à travailler en équipe et à collaborer avec d'autres professionnels."
+                }
+            },
+            "engineer": {
+                "title": "Ingénieur en apprentissage",
+                "date": "2022 - 2025",
+                "development": {
+                    "title": "Développement",
+                    "texte" : "Algorithmique et structures de données (langage C), Systèmes et outils Linux, Technologies Web, Développement pour l’embarqué (langage C), Programmation orientée objet, Langages scripts, Applications distribuées, Génie logiciel."
+                },
+                "electronics": {
+                    "title": "Captation, Transmission, Électronique",
+                    "texte" : "Électronique : instrumentation et captation de données, Physique des transmissions, Composants pour architecture d’exécution, Chaîne de télécommunications, Principe des réseaux, Objets communicants : protocoles de communication, Technologies et environnements embarqués, Conception de systèmes embarqués temps réel, Applications embarquées et cross compilation, Sécurisation des échanges de données et des matériels."
+                },
+                "dataBase": {
+                    "title": "Data",
+                    "texte" : "Base de données relationnelles, NoSQL, Calcul et outils de programmation numériques, Sauvegarde des données, Algorithmes pour l’analyse des données, Visualisation des données, Données spécifiques, Cloud computing, apprentissage Automatique, projet big data et BI."
+                },
+                "professionalEnvironment": {
+                    "title": "Environnement professionnel",
+                    "texte" : "Gestion de projet, Législation numérique, Technique d’expression écrite, Anglais, Technique de créativité, Gestion financière, Marketing, Management RH, Stratégie d’entreprise."
+                }
+            }
+        },
+        "skills": {
+                "csharp": "C#",
+                "cpp": "C++",
+                "php": "PHP",
+                "html": "HTML",
+                "css": "CSS",
+                "python": "Python",
+                "sql": "SQL",
+                "javascript": "JavaScript",
+                "bootstrap": "Bootstrap",
+                "symfony": "Symfony",
+                "vuejs": "Vuejs3",
+                "fastapi": "FastAPI",
+                "mysql": "MySQL",
+                "postgresql": "PostgreSQL",
+                "docker": "Docker",
+                "git": "Git/GitHub"
+        },
+        "projects": {
+            "title": "Mes projets",
+            "fc_tence_foot": {
+              "title": "Site FC Tence Foot",
+              "description": "Site web du club de football de Tence"
+            },
+            "mairie_tence": {
+              "title": "Site Mairie de Tence",
+              "description": "Site web de la mairie de Tence"
+            },
+            "portfolio_bts": {
+              "title": "Site Portfolio BTS",
+              "description": "Site web de mon portfolio pour mon BTS"
+            },
+            "mon_entreprise": {
+              "title": "Site avec mon entreprise",
+              "description": "Site web de mon entreprise"
+            },
+            "portfolio_ecole_ingenieur": {
+              "title": "Site Portfolio Ecole d'ingénieur",
+              "description": "Site web de mon portfolio pour mon école d'ingénieur"
+            }
+        }
+    }
+}
+  

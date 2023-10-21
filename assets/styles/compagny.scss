@@ -1,0 +1,47 @@
+.compagny {
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .compagny {
+    height: auto;
+    flex-direction: column;
+  }
+  .section-img {
+    order: 2;
+  }
+}
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.company__content {
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.company__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.company__title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 3px;
+  background-color: orange;
+  margin: 1rem auto;
+}
+
+.company__text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+

@@ -3,20 +3,26 @@
 namespace App\Controller;
 
 
-use App\Repository\UserRepository;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
+use App\Form\ContactFormType;
+use Symfony\Component\HttpFoundation\Request;
 
 class DashboardController extends AbstractController
 {
     #[Route('/home', name: 'home')]
-    public function home(UserRepository $userRepository): Response
+    public function home(Request $request): Response
     {
+        $form = $this->createForm(ContactFormType::class);
 
+        $form->handleRequest($request);
+        if ($form->isSubmitted() && $form->isValid()) {
+            // Handle form submission here
+        }
         return $this->render('Dashboard/dashboard.html.twig', [
             'controller_name' => 'DashboardController',
-            'users' => $userRepository->findAll(),
+            'form' => $form->createView(),
         ]);
     }
 
