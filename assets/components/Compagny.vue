@@ -1,7 +1,7 @@
 <template>
   <div id="compagny" class="compagny container-fluid d-flex flex-column flex-md-row justify-content-between align-items-center">
     <div class="col-md-6 d-flex justify-content-center section-img mb-3">
-      <img src="https://via.placeholder.com/800x600" alt="Photo" class="rounded img-fluid">
+      <img src="img/Datiplus.jpeg" alt="Photo" class="rounded img-fluid">
     </div>
     <div class="col-md-6 company d-flex flex-column justify-content-center">
       <article class="company__content">
