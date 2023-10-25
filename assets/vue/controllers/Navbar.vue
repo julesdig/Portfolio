@@ -16,7 +16,7 @@
     </a>
     <ul class="dropdown-menu text-small" style="">
       <li><a class="dropdown-item" href="#">Français</a></li>
-
+      <li><a class="dropdown-item" href="#">English</a></li>
     </ul>
   </div>
       

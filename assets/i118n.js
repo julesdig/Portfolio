@@ -1,13 +1,20 @@
 import { createI18n } from 'vue-i18n';
+function loadLocaleMessages() {
+  const locales = require.context('./translations', true, /messages\.[A-Za-z0-9-_,\s]+\.json$/i);
+  const messages = {};
+  locales.keys().forEach(key => {
+    const matched = key.match(/messages\.([A-Za-z0-9-_]+)\./i);
+    if (matched && matched.length > 1) {
+      const locale = matched[1];
+      messages[locale] = locales(key);
+    }
+  });
+  return messages;
+}
 const i18n = createI18n({
   locale: 'fr',
   fallbackLocale: 'en',
-  globalInjection: true,
-  legacy: false,
-  messages: {
-    fr: require('./translations/messages.fr.json'),
-    en: require('./translations/messages.en.json')
-  }
+  messages: loadLocaleMessages()
 });
 
 const $t = i18n.global.t;
