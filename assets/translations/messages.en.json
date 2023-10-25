@@ -5,6 +5,7 @@
         "TermsOfUse": "Mentions légales"
     },
     "navbar":{
+        "home":"home",
         "compagny": "My compgany",
         "study": "Ma formation",
         "skills": "Mes projets"
