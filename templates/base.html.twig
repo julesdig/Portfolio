@@ -7,6 +7,7 @@
         {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
         {% endblock %}
+        {{ encore_entry_script_tags('app') }}
     </head>
     <body>
       <div {{ vue_component('Navbar') }}></div>
@@ -14,8 +15,5 @@
       
         {% endblock %}
      <div {{ vue_component('Footer') }}></div>
-        {% block javascripts %}
-        {{ encore_entry_script_tags('app') }}
-        {% endblock %}
     </body>
 </html>

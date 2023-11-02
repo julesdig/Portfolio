@@ -5,13 +5,12 @@
         "TermsOfUse": "Mentions légales"
     },
     "navbar":{
-        "home":"home",
-        "compagny": "Mon Entreprise",
+        "compagny": "My compgany",
         "study": "Ma formation",
         "skills": "Mes projets"
     },
     "dashboard":{
-        "title": "Accueil",
+        "title": "home",
         "introducing":{
             "study": "Data Engineering",
             "intership": "en Alternance"

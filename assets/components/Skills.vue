@@ -26,7 +26,6 @@
 </template>
 
 <script setup>
-import { $t } from '../i118n.js';
 
 const sections = [
   {
