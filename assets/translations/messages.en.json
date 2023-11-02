@@ -1,116 +1,115 @@
 {
-    "footer":{
-        "adress":"Mendigoules, 43190 Tence, France ",
-        "about": "2023 - Jules Digonnet | ",
-        "TermsOfUse": "Mentions légales"
+    "footer": {
+        "adress": "Mendigoules, 43190 Tence, France",
+        "about": "2023 - Jules Digonnet",
+        "TermsOfUse": "Legal Notice"
     },
-    "navbar":{
-        "home":"home",
-        "compagny": "My compgany",
-        "study": "Ma formation",
-        "skills": "Mes projets"
+    "navbar": {
+        "home": "home",
+        "compagny": "My Company",
+        "study": "My Education",
+        "skills": "My Projects"
     },
-    "dashboard":{
-        "title": "home",
-        "introducing":{
+    "dashboard": {
+        "title": "Home",
+        "introducing": {
             "study": "Data Engineering",
-            "intership": "en Alternance"
+            "intership": "Internship"
         },
-        "compagny":{
-            "title": "Mon Entreprise",
-            "texte":{
-                "title":"DATIPLUS l’expert n°1 pour protéger les travailleurs isolés.",
-                "part1":"Avec notre marque commerciale DATIPLUS,nous protégeons les salariés isolés de plus de 1 500 entreprises.",
-                "part2": "Confortables, nos solutions s’adaptent à tous. La protection se fait oublier. Des capteurs de mouvements détectent en permanence l’activité du porteur.",
-                "part3": "Des algorithmes d’intelligence artificielle traitent ces données pour apprendre les habitudes de chaque utilisateur et mieux détecter les situations anormales (chute, moindre activité, réveil tardif…).",
-                "part4": "Dès qu’une situation de détresse est détectée, l’alerte est transmise à des contacts de l’entreprise ou à un PC de sécurité."
-            } 
+        "compagny": {
+            "title": "My Company",
+            "texte": {
+                "title": "DATIPLUS the #1 expert in protecting isolated workers.",
+                "part1": "With our commercial brand DATIPLUS, we protect isolated employees from over 1,500 companies.",
+                "part2": "Comfortable, our solutions adapt to everyone. Protection becomes unobtrusive. Motion sensors constantly detect the wearer's activity.",
+                "part3": "Artificial intelligence algorithms process this data to learn each user's habits and better detect abnormal situations (falls, decreased activity, late waking, etc.).",
+                "part4": "As soon as a distress situation is detected, an alert is sent to company contacts or a security control room."
+            }
         },
-        "study":{
-            "title": "Ma formation",
-            "units":"Modules :",
+        "study": {
+            "title": "My Education",
+            "units": "Modules:",
             "BTS": {
-                "title": "BTS SIO",
+                "title": "BTS IT Services",
                 "date": "2020 - 2022",
                 "development": {
-                    "title": "Développement Logiciel et Applications",
-                    "texte" : "Apprentissage des langages de programmation (Java, C#, PHP, Python,Html,Css.).Création d'applications logicielles répondant aux besoins des organisations.Conception, modélisation et intégration de solutions informatiques."
+                    "title": "Software Development and Applications",
+                    "texte": "Learning programming languages (Java, C#, PHP, Python, HTML, CSS). Creating software applications that meet organizational needs. Designing, modeling, and integrating IT solutions."
                 },
                 "projectManagement": {
-                    "title": "Gestion de Projets Informatiques",
-                    "texte" : "Utilisation de méthodologies de gestion de projets (agile, scrum, etc.).Planification, suivi et gestion des projets de développement informatique.Intégration et déploiement des logiciels dans l'environnement organisationnel."
+                    "title": "IT Project Management",
+                    "texte": "Using project management methodologies (agile, scrum, etc.). Planning, monitoring, and managing IT development projects. Integrating and deploying software in the organizational environment."
                 },
                 "dataBase": {
-                    "title": "Bases de Données et Systèmes Informatiques",
-                    "texte" : "Conception, création et gestion de bases de données.Compréhension des principes et fonctionnement des systèmes informatiques.Administration et maintenance des réseaux informatiques."
+                    "title": "Databases and IT Systems",
+                    "texte": "Designing, creating, and managing databases. Understanding the principles and operation of IT systems. Administering and maintaining IT networks."
                 },
                 "communication": {
-                    "title": "Communication, Support Technique et Travail d'Équipe",
-                    "texte" : "Bonne communication et compréhension des besoins des utilisateurs.Support technique aux utilisateurs et aux équipes internes.Capacité à travailler en équipe et à collaborer avec d'autres professionnels."
+                    "title": "Communication, Technical Support, and Teamwork",
+                    "texte": "Good communication and understanding of user needs. Technical support for users and internal teams. Ability to work in a team and collaborate with other professionals."
                 }
             },
             "engineer": {
-                "title": "Ingénieur en apprentissage",
+                "title": "Apprentice Engineer",
                 "date": "2022 - 2025",
                 "development": {
-                    "title": "Développement",
-                    "texte" : "Algorithmique et structures de données (langage C), Systèmes et outils Linux, Technologies Web, Développement pour l’embarqué (langage C), Programmation orientée objet, Langages scripts, Applications distribuées, Génie logiciel."
+                    "title": "Development",
+                    "texte": "Algorithms and data structures (C language), Linux systems and tools, Web technologies, Embedded systems development (C language), Object-oriented programming, Scripting languages, Distributed applications, Software engineering."
                 },
                 "electronics": {
-                    "title": "Captation, Transmission, Électronique",
-                    "texte" : "Électronique : instrumentation et captation de données, Physique des transmissions, Composants pour architecture d’exécution, Chaîne de télécommunications, Principe des réseaux, Objets communicants : protocoles de communication, Technologies et environnements embarqués, Conception de systèmes embarqués temps réel, Applications embarquées et cross compilation, Sécurisation des échanges de données et des matériels."
+                    "title": "Data Capture, Transmission, Electronics",
+                    "texte": "Electronics: data instrumentation and capture, Transmission physics, Components for execution architecture, Telecommunication chain, Network principles, Communicating objects: communication protocols, Embedded technologies and environments, Real-time embedded system design, Embedded and cross-compiled applications, Securing data and hardware exchanges."
                 },
                 "dataBase": {
                     "title": "Data",
-                    "texte" : "Base de données relationnelles, NoSQL, Calcul et outils de programmation numériques, Sauvegarde des données, Algorithmes pour l’analyse des données, Visualisation des données, Données spécifiques, Cloud computing, apprentissage Automatique, projet big data et BI."
+                    "texte": "Relational databases, NoSQL, Numeric programming and calculation tools, Data backup, Algorithms for data analysis, Data visualization, Specific data, Cloud computing, Machine learning, big data and BI projects."
                 },
                 "professionalEnvironment": {
-                    "title": "Environnement professionnel",
-                    "texte" : "Gestion de projet, Législation numérique, Technique d’expression écrite, Anglais, Technique de créativité, Gestion financière, Marketing, Management RH, Stratégie d’entreprise."
+                    "title": "Professional Environment",
+                    "texte": "Project management, Digital legislation, Written expression techniques, English, Creativity techniques, Financial management, Marketing, HR management, Business strategy."
                 }
             }
         },
         "skills": {
-                "csharp": "C#",
-                "cpp": "C++",
-                "php": "PHP",
-                "html": "HTML",
-                "css": "CSS",
-                "python": "Python",
-                "sql": "SQL",
-                "javascript": "JavaScript",
-                "bootstrap": "Bootstrap",
-                "symfony": "Symfony",
-                "vuejs": "Vuejs3",
-                "fastapi": "FastAPI",
-                "mysql": "MySQL",
-                "postgresql": "PostgreSQL",
-                "docker": "Docker",
-                "git": "Git/GitHub"
+            "csharp": "C#",
+            "cpp": "C++",
+            "php": "PHP",
+            "html": "HTML",
+            "css": "CSS",
+            "python": "Python",
+            "sql": "SQL",
+            "javascript": "JavaScript",
+            "bootstrap": "Bootstrap",
+            "symfony": "Symfony",
+            "vuejs": "Vue.js 3",
+            "fastapi": "FastAPI",
+            "mysql": "MySQL",
+            "postgresql": "PostgreSQL",
+            "docker": "Docker",
+            "git": "Git/GitHub"
         },
         "projects": {
-            "title": "Mes projets",
+            "title": "My Projects",
             "fc_tence_foot": {
-              "title": "Site FC Tence Foot",
-              "description": "Site web du club de football de Tence"
+                "title": "FC Tence (05/31/2021-06/27/2021)",
+                "description": "During my web development internship, I created a site using HTML, CSS, and PHP Object. I designed a responsive interface, implemented interactive data management, optimized performance, and reinforced security. This project strengthened my web development skills and allowed me to create a functional website."
             },
             "mairie_tence": {
-              "title": "Site Mairie de Tence",
-              "description": "Site web de la mairie de Tence"
+                "title": "Tence Town Hall (01/03/2022-02/11/2022)",
+                "description": "During my web development internship at the Tence Town Hall, I created a fully customized site using HTML, CSS, Bootstrap, and a PHP framework developed from scratch. I designed a user-friendly interface and integrated interactive features to enhance the town hall's online presence."
             },
             "portfolio_bts": {
-              "title": "Site Portfolio BTS",
-              "description": "Site web de mon portfolio pour mon BTS"
+                "title": "BTS Portfolio",
+                "description": "My BTS web development portfolio showcases my commitment to creating a complete website. I used a range of technologies, including HTML, CSS, JavaScript, Bootstrap, PHP, and object-oriented programming (PHP Object). I designed this website from scratch, marking a significant milestone in my journey."
             },
             "mon_entreprise": {
-              "title": "Site avec mon entreprise",
-              "description": "Site web de mon entreprise"
+                "title": "Datiplus Client Space",
+                "description": "Currently in a learning phase, I had the opportunity to contribute to the 'Datiplus' client space project based on the Symfony PHP framework. Within this team, I participated in enhancing existing features, creating new functionalities, and integrating a new product. This experience not only allowed me to learn more about Symfony but also introduced me to the professional world of web development, enriching my current education."
             },
             "portfolio_ecole_ingenieur": {
-              "title": "Site Portfolio Ecole d'ingénieur",
-              "description": "Site web de mon portfolio pour mon école d'ingénieur"
+                "title": "Portfolio",
+                "description": "My current portfolio reflects my ever-evolving education and skills. I work with Symfony 6 as the main framework while delving into learning Vue.js 3 for dynamic frontend applications. My knowledge in HTML, CSS, Bootstrap, JavaScript, Docker, and PHP continues to grow. I leverage these ever-evolving skills to develop quality web projects while staying at the forefront of the latest technologies."
             }
         }
     }
 }
-  

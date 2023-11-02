@@ -15,16 +15,28 @@
       <i class="bi bi-translate"></i>
     </a>
     <ul class="dropdown-menu text-small" style="">
-      <li><a class="dropdown-item" href="#">Français</a></li>
-      <li><a class="dropdown-item" href="#">English</a></li>
+      <li><a class="dropdown-item" @click="switchLocale('fr')">Français</a></li>
+      <li><a class="dropdown-item" @click="switchLocale('en')">English</a></li>
     </ul>
   </div>
       
   </header>
 </template>
 
-<script setup>
+<script >
+import axios from 'axios';
 
+export default {
+  methods: {
+    switchLocale(locale) {
+      this.$i18n.locale = locale;
+      axios.get('/change-locale/' + locale)
+      .then(() => {
+        window.location.reload();
+      });
+    }
+  }
+};
 </script>
 <style lang="scss">
 @import './../../styles/navbar.scss';

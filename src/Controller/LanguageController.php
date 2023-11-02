@@ -11,17 +11,13 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class LanguageController
 {
 
-    #[Route('/change-language/{loacle}', name: 'change_language')]
+    #[Route('/change-locale/{locale}', name: 'change-locale')]
     public function changeLanguage(Request $request, $locale): JsonResponse
     {
-
-        $request->getSession()->set('_locale', $locale);
-        return new JsonResponse([
-            'locale' => $request->getSession()->get('_locale')
-        ]);
-        // putenv('APP_LOCALE=' . $locale);
-        /*$referer = $request->headers->get('referer');
-        dump($request->getSession()->get('_locale'));
-        return new RedirectResponse($referer);*/
+        $validLocales = ['fr', 'en']; // Ajoutez d'autres langues supportées
+        if (in_array($locale, $validLocales)) {
+            $request->getSession()->set('_locale', $locale);
+        }
+        return new JsonResponse(['locale' => $request->getSession()->get('_locale')]);
     }
 }
