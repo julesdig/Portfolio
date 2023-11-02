@@ -34,10 +34,13 @@
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-plugin-import": "^2.28.1",
         "eslint-plugin-vue": "^9.17.0",
+        "i18next": "^23.6.0",
         "sass": "^1.69.0",
         "sass-loader": "^13.3.2",
         "vue": "^3.3.4",
         "vue-i18n": "^9.5.0",
-        "vue-template-compiler": "^2.7.14"
+        "vue-template-compiler": "^2.7.14",
+        "vuetify": "^3.3.23",
+        "webpack-plugin-vuetify": "^2.0.1"
     }
 }

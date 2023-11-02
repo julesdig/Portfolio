@@ -15,8 +15,8 @@
       <i class="bi bi-translate"></i>
     </a>
     <ul class="dropdown-menu text-small" style="">
-      <li><a class="dropdown-item" href="#">Français</a></li>
-      <li><a class="dropdown-item" href="#">English</a></li>
+      <li><a class="dropdown-item" @click="changeLanguage('fr')">Français</a></li>
+      <li><a class="dropdown-item" @click="changeLanguage('en')">English</a></li>
     </ul>
   </div>
       
@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-  import {$t} from './../../i118n.js';
+
 </script>
 <style lang="scss">
 @import './../../styles/navbar.scss';

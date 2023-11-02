@@ -11,9 +11,3 @@
   import study from './../../components/Study.vue';
   import skills from './../../components/Skills.vue';
 </script>
-<components>
-  introducing,
-  compagny,
-  study,
-  skills
-</components>

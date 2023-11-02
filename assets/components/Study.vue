@@ -41,7 +41,7 @@
 </template>
 
 <script setup>
-import {$t} from '../i118n.js';
+
 </script>
 <style lang="scss">
 @import './../styles/study.scss';
