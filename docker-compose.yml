@@ -41,14 +41,12 @@ services:
     container_name: ${NAMESPACE:-portfolio_project}_php
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    sysctls:
-      net.core.somaxconn: 65536
     working_dir: /var/www/${NAMESPACE:-portfolio}
     volumes:
       #- ~/.composer:/var/www/.composer
       - ${PWD}:/var/www/${NAMESPACE:-portfolio}:delegated
       - php_socket:/var/run/php:cached
-      - mysql_socket:/var/run/mysql:cached
+      - mysql_socket:/var/run/mariadbd:cached
       - ${PWD}/.docker/php/conf/extra/php-ini-overrides.ini:/usr/local/etc/php/conf.d/php-ini-overrides.ini
 
   ###############################
@@ -64,12 +62,12 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE:-portfolio}
       MYSQL_USER: ${MYSQL_USER:-portfolio}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD:-portfolio}
+      MYSQL_ROOT_HOST: "%"
     ports:
       - "3306:3306"
     volumes:
-      - mysql_data:/var/lib/mysql
-    user: 1000:1000
-    platform: linux/amd64
+      - mysql_socket:/var/run/mariadbd
+      - mysql_data:/var/lib/mysql/
 
   ###############################
   ##         [Adminer]         ##
@@ -96,7 +94,9 @@ volumes:
       device: ${PWD}/.docker/SQL/data
 
   mysql_socket:
-    driver: local
+    driver_opts:
+      type: tmpfs
+      device: tmpfs
   ###############################
   ##           [PHP]           ##
   ###############################

@@ -1,3 +1,3 @@
-FROM mysql:latest
-CMD ["mysqld"]
+FROM mariadb:latest
+CMD ["mariadbd"]
 EXPOSE 3306

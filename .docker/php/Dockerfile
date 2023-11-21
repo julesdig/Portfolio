@@ -16,7 +16,6 @@ RUN apk update && apk upgrade --available \
     && apk add --no-cache linux-headers \
     && apk add --virtual build-dependencies \
         libc-dev \
-        libpq-dev \
         libxslt-dev \
         freetype-dev \
         libjpeg-turbo-dev \
@@ -35,7 +34,6 @@ RUN apk update && apk upgrade --available \
         imagemagick-dev \
         imagemagick \
         bc \
-        chromium \
     && apk add --virtual .php-deps \
         make \
     && apk add --virtual .build-deps \
@@ -51,8 +49,6 @@ RUN apk update && apk upgrade --available \
         gd \
         intl \
         pdo_mysql \
-        pdo_pgsql \
-        pgsql \
         opcache \
         xsl \
         zip \
