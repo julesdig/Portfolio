@@ -15,50 +15,46 @@ COPY conf/xdebug.ini /usr/local/etc/php/conf.d/
 RUN apk update && apk upgrade --available \
     && apk add --no-cache linux-headers \
     && apk add --virtual build-dependencies \
-        libc-dev \
-        libpq-dev \
-        libxslt-dev \
-        freetype-dev \
-        libjpeg-turbo-dev \
-        libpng \
-        libpng-dev \
-        libzip-dev \
+    libc-dev \
+    libxslt-dev \
+    freetype-dev \
+    libjpeg-turbo-dev \
+    libpng \
+    libpng-dev \
+    libzip-dev \
     && set -xe \
     && apk add \
-        git \
-        bash \
-        bash-completion \
-        shadow \
-	    nano \
-        tzdata \
-        icu \
-        imagemagick-dev \
-        imagemagick \
-        bc \
-        chromium \
+    git \
+    bash \
+    bash-completion \
+    shadow \
+    nano \
+    tzdata \
+    icu \
+    imagemagick-dev \
+    imagemagick \
+    bc \
     && apk add --virtual .php-deps \
-        make \
+    make \
     && apk add --virtual .build-deps \
-        $PHPIZE_DEPS \
-        zlib-dev \
-        icu-dev \
-        g++ \
+    $PHPIZE_DEPS \
+    zlib-dev \
+    icu-dev \
+    g++ \
     && docker-php-ext-configure gd --with-freetype=/usr/include/freetype2 --with-jpeg=/usr/lib/x86_64-linux-gnu/ \
     && docker-php-ext-configure hash --with-mhash \
     && docker-php-ext-install \
-        bcmath \
-        mysqli \
-        gd \
-        intl \
-        pdo_mysql \
-        pdo_pgsql \
-        pgsql \
-        opcache \
-        xsl \
-        zip \
-        soap \
-        sockets \
-        pcntl \
+    bcmath \
+    mysqli \
+    gd \
+    intl \
+    pdo_mysql \
+    opcache \
+    xsl \
+    zip \
+    soap \
+    sockets \
+    pcntl \
     && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
     && echo $TZ > /etc/timezone \
     && pecl channel-update pecl.php.net \
