@@ -298,6 +298,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/ux-vue" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stimulus-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/ux-turbo" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap-icons" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

@@ -11,7 +11,7 @@ services:
         USER: ${USER}
         TZ: ${TZ}
         WORKDIR_SERVER: /var/www/${NAMESPACE}
-        SERVER_NAME: ${SERVER_NAME:-www.digonnetjules.localhost}
+        SERVER_NAME: ${SERVER_NAME}
         SERVER_PATH: ${SERVER_PATH}
     container_name: ${NAMESPACE}_nginx
     working_dir: /var/www/${NAMESPACE}
@@ -55,13 +55,13 @@ services:
   mysql:
     build:
       context: .docker/SQL
-    container_name: ${NAMESPACE:-portfolio_project}_db
+    container_name: ${NAMESPACE}_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-password}
-      MYSQL_DATABASE: ${MYSQL_DATABASE:-portfolio}
-      MYSQL_USER: ${MYSQL_USER:-portfolio}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-portfolio}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_ROOT_HOST: "%"
     ports:
       - "3306:3306"
