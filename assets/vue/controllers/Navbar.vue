@@ -30,10 +30,6 @@ export default {
   methods: {
     switchLocale(locale) {
       this.$i18n.locale = locale;
-      axios.get('/change-locale/' + locale)
-      .then(() => {
-        window.location.reload();
-      });
     }
   }
 };

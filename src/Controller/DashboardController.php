@@ -17,11 +17,6 @@ class DashboardController extends AbstractController
         $form = $this->createForm(ContactFormType::class);
 
         $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()) {
-            // Handle form submission here
-        }
-        $locale = $request->getLocale();
-        //dd($locale);
         return $this->render('Dashboard/dashboard.html.twig', [
             'controller_name' => 'DashboardController',
             'form' => $form->createView(),
