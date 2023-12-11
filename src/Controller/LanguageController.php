@@ -14,7 +14,7 @@ class LanguageController
     #[Route('/change-locale/{locale}', name: 'change-locale')]
     public function changeLanguage(Request $request, $locale): JsonResponse
     {
-        $validLocales = ['fr', 'en']; // Ajoutez d'autres langues supportées
+        $validLocales = ['fr', 'en'];
         if (in_array($locale, $validLocales)) {
             $request->getSession()->set('_locale', $locale);
         }
