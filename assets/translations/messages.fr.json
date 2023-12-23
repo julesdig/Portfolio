@@ -108,7 +108,11 @@
             },
             "portfolio_ecole_ingenieur": {
               "title": "Portfolio",
-              "description": "Mon portfolio actuel reflète ma formation et mes compétences en constante évolution. Je travaille avec Symfony 6 en tant que framework principal, tout en m'immergeant dans l'apprentissage de Vue.js 3 pour des applications frontend dynamiques. Mes connaissances en HTML, CSS, Bootstrap, JavaScript, Docker et PHP continuent de s'enrichir. J'exploite ces compétences en constante évolution pour développer des projets web de qualité tout en restant à la pointe des dernières technologies."
+              "description": "Mon portfolio actuel reflète ma formation et mes compétences en constante évolution. Je travaille avec Symfony 7 en tant que framework principal, tout en m'immergeant dans l'apprentissage de Vue.js 3 pour des applications frontend dynamiques. Mes connaissances en HTML, CSS, Bootstrap, JavaScript, Docker et PHP continuent de s'enrichir. J'exploite ces compétences en constante évolution pour développer des projets web de qualité tout en restant à la pointe des dernières technologies."
+            },
+            "datawave": {
+                "title": "Datawave",
+                "description": "Le projet Datawave a été conçu lors du workshop Green IT, organisé par Télécom Saint-Étienne en collaboration avec le Département de la Loire. Notre mission : développer des solutions numériques innovantes pour une gestion durable et efficiente de l'eau. Ce partenariat a créé un environnement propice à l'émergence d'idées novatrices, et le projet Datawave incarne notre engagement envers des pratiques responsables dans le domaine de la gestion de l'eau."
             }
         }
     }

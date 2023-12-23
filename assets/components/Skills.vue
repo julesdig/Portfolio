@@ -68,6 +68,14 @@ const sections = [
     description: 'dashboard.projects.portfolio_ecole_ingenieur.description',
     skills: ['php', 'html', 'css', 'mysql', 'bootstrap', 'javascript', 'vuejs', 'symfony','docker', 'git'],
   },
+  {
+    class: 'skillsGrey',
+    imagePosition: 'right',
+    image: '/img/Datawave.png',
+    title: 'dashboard.projects.datawave.title',
+    description: 'dashboard.projects.datawave.description',
+    skills: ['php', 'html', 'css', 'mysql','docker', 'git'],
+  },
 ];
 </script>
 
