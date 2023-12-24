@@ -1,14 +1,49 @@
 {
     "footer":{
-        "adress":"Mendigoules, 43190 Tence, France ",
+        "address":"Mendigoules, 43190 Tence, France ",
         "about": "2023 - Jules Digonnet ",
         "TermsOfUse": "Mentions légales"
     },
     "navbar":{
         "home":"home",
-        "compagny": "Mon Entreprise",
+        "company": "Mon Entreprise",
         "study": "Ma formation",
         "skills": "Mes projets"
+    },
+    "legalNotice":{
+      "title": "Mentions légales",
+      "information":{
+        "title": "1. Informations générales :",
+        "content": " Nom du site : digonnetjules.fr<br />Propriétaire : Digonnet Jules <br />Adresse : Mendigoules, 43190 Tence<br />Adresse e-mail : judigonnet@gmail.com "
+      },
+      "hosting": {
+        "title": "2. Hébergement :",
+        "content": "Hébergé par : OVH<br /> Adresse : 59820 Gravelines, Nord-Pas-de-Calais-Picardie, France"
+      },
+      "intellectualProperty": {
+        "title": "3. Propriété intellectuelle :",
+        "content": "Le contenu de ce site (textes, images, etc.) est la propriété intellectuelle de Digonnet Jules. Toute reproduction sans autorisation est interdite."
+      },
+      "noPersonalData": {
+        "title": "4. Absence de collecte de données personnelles :",
+        "content": "Ce site portfolio ne collecte aucune donnée personnelle. Aucun formulaire de contact, suivi d'analyse ou autre mécanisme de collecte d'informations personnelles n'est présent."
+      },
+      "cookies": {
+        "title": "5. Cookies :",
+        "content": "Ce site n'utilise pas de cookies de suivi ni d'autres technologies similaires."
+      },
+      "responsibility": {
+        "title": "6. Responsabilité :",
+        "content": "L'auteur de ce site ne peut être tenu responsable de l'utilisation faite du contenu présenté. Ce site est fourni à titre informatif uniquement."
+      },
+      "externalLinks": {
+        "title": "7. Liens externes :",
+        "content": "Ce site peut contenir des liens vers des sites externes. L'auteur n'assume aucune responsabilité quant au contenu de ces sites."
+      },
+      "contact": {
+        "title": "8. Contact :",
+        "content": "Pour toute question ou préoccupation concernant ces mentions légales, veuillez nous contacter à l'adresse e-mail suivante : judigonnet@gmail.com"
+      }
     },
     "dashboard":{
         "title": "Accueil",

@@ -1,13 +1,13 @@
 <template>
   <header class="row align-items-center m-2"> 
   <div class="col-lg-2 d-flex justify-content-end">
-    <img src="img/logo.png"  width="40" height="32" alt="Logo">
+    <img src="/img/logo.png"  width="40" height="32" alt="Logo">
   </div>
   <div class="col-lg-8 d-flex justify-content-center">
     <ul class="nav col-7 col-md-auto mb-2 d-flex justify-content-start mb-md-0">
-        <li><a href="#compagny" class="nav-link px-2 link-dark">{{ $t('navbar.compagny') }}</a></li>
-        <li><a href="#study" class="nav-link px-2 link-dark">{{ $t('navbar.study') }}</a></li>
-        <li><a href="#skills" class="nav-link px-2 link-dark">{{ $t('navbar.skills') }}</a></li>
+        <li><a href="/home/#compagny" class="nav-link px-2 link-dark">{{ $t('navbar.company') }}</a></li>
+        <li><a href="/home/#study" class="nav-link px-2 link-dark">{{ $t('navbar.study') }}</a></li>
+        <li><a href="/home/#skills" class="nav-link px-2 link-dark">{{ $t('navbar.skills') }}</a></li>
       </ul>
   </div>
   <div class="col-lg-2 dropdown text-center">
@@ -31,10 +31,11 @@ export default {
     switchLocale(locale) {
       this.$i18n.locale = locale;
     }
-  }
+  },
 };
 </script>
 <style lang="scss">
 @import './../../styles/navbar.scss';
+
 
 </style>

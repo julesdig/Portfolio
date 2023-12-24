@@ -1,4 +1,4 @@
-import { createI18n } from 'vue-i18n';
+import { createI18n } from 'vue-i18n/dist/vue-i18n.esm-bundler.js';
 function loadLocaleMessages() {
   const locales = require.context('./translations', true, /messages\.[A-Za-z0-9-_,\s]+\.json$/i);
   const messages = {};
@@ -14,6 +14,12 @@ function loadLocaleMessages() {
 const i18n = createI18n({
   locale: 'fr',
   fallbackLocale: 'en',
-  messages: loadLocaleMessages()
+  messages: loadLocaleMessages(),
+  __dangerouslyDisableHtml: false,
+  runtimeOnly: false,
+  allowHTMLMessage: true,
+  legacy: false,
+  allowComposition: true,
+  globalInjection: true,
 });
 export default i18n;
