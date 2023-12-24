@@ -1,14 +1,49 @@
 {
     "footer": {
-        "adress": "Mendigoules, 43190 Tence, France",
+        "address": "Mendigoules, 43190 Tence, France",
         "about": "2023 - Jules Digonnet",
         "TermsOfUse": "Legal Notice"
     },
     "navbar": {
         "home": "home",
-        "compagny": "My Company",
+        "company": "My Company",
         "study": "My Education",
         "skills": "My Projects"
+    },
+    "legalNotice": {
+        "title": "Legal Notice",
+        "information": {
+            "title": "1. General Information:",
+            "content": "Site Name: digonnetjules.fr<br />Owner: Digonnet Jules <br />Address: Mendigoules, 43190 Tence<br />Email Address: judigonnet@gmail.com"
+        },
+        "hosting": {
+            "title": "2. Hosting:",
+            "content": "Hosted by: OVH<br /> Address: 59820 Gravelines, Nord-Pas-de-Calais-Picardie, France"
+        },
+        "intellectualProperty": {
+            "title": "3. Intellectual Property:",
+            "content": "The content of this site (text, images, etc.) is the intellectual property of Digonnet Jules. Any reproduction without permission is prohibited."
+        },
+        "noPersonalData": {
+            "title": "4. Absence of Personal Data Collection:",
+            "content": "This portfolio site does not collect any personal data. No contact form, tracking, or other mechanism for collecting personal information is present."
+        },
+        "cookies": {
+            "title": "5. Cookies:",
+            "content": "This site does not use tracking cookies or similar technologies."
+        },
+        "responsibility": {
+            "title": "6. Responsibility:",
+            "content": "The author of this site cannot be held responsible for the use made of the presented content. This site is provided for informational purposes only."
+        },
+        "externalLinks": {
+            "title": "7. External Links:",
+            "content": "This site may contain links to external sites. The author assumes no responsibility for the content of these sites."
+        },
+        "contact": {
+            "title": "8. Contact:",
+            "content": "For any questions or concerns regarding these legal notices, please contact us at the following email address: judigonnet@gmail.com."
+        }
     },
     "dashboard": {
         "title": "Home",
@@ -108,7 +143,11 @@
             },
             "portfolio_ecole_ingenieur": {
                 "title": "Portfolio",
-                "description": "My current portfolio reflects my ever-evolving education and skills. I work with Symfony 6 as the main framework while delving into learning Vue.js 3 for dynamic frontend applications. My knowledge in HTML, CSS, Bootstrap, JavaScript, Docker, and PHP continues to grow. I leverage these ever-evolving skills to develop quality web projects while staying at the forefront of the latest technologies."
+                "description": "My current portfolio reflects my ever-evolving education and skills. I work with Symfony 7 as the main framework while delving into learning Vue.js 3 for dynamic frontend applications. My knowledge in HTML, CSS, Bootstrap, JavaScript, Docker, and PHP continues to grow. I leverage these ever-evolving skills to develop quality web projects while staying at the forefront of the latest technologies."
+            },
+            "datawave": {
+                "title": "Datawave",
+                "description": "The Datawave project was conceived during the Green IT workshop, organized by Télécom Saint-Étienne in collaboration with the Department of Loire. Our mission: to develop innovative digital solutions for sustainable and efficient water management. This partnership created an environment conducive to the emergence of novel ideas, and the Datawave project embodies our commitment to responsible practices in the field of water management."
             }
         }
     }
