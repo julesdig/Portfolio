@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="Mode Sombre">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/MentionsLegal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/MentionsLegal.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +240,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "darkMode",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "/Users/user/Documents/Portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

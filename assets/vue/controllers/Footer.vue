@@ -40,7 +40,6 @@ watchEffect(() => {
 
 
 <style lang="scss">
-@import './../../styles/footer.scss';
 .custom-app-footer{
   border: 1px solid red !important;
 
