@@ -1,25 +1,32 @@
 <template>
-  <div class="container-with-border">
-  <v-container  >
-    <v-row>
-      <v-col>
-        <h1 class="display-1">{{ $t('legalNotice.title') }}</h1>
-      </v-col>
-    </v-row>
-    <v-list lines="three">
-      <v-list-item v-for="(section, index) in sections" :key="index">
-        <v-list-item>
-          <v-list-item-title>
-            <h2>{{ $t(section.title) }}</h2>
-          </v-list-item-title>
-          <div v-html="$t(section.content)" ></div>
-        </v-list-item>
-      </v-list-item>
-    </v-list>
-  </v-container>
-  </div>
+  <v-app>
+    <Navbar></Navbar>
+    <v-main class="mt-auto">
+      <v-container class="mt-auto">
+        <v-col>
+          <h1 class="display-1">{{ $t('legalNotice.title') }}</h1>
+        </v-col>
+        <v-col>
+          <v-list lines="three" >
+            <v-list-item v-for="(section, index) in sections" :key="index">
+              <v-list-item>
+                <v-list-item-title>
+                  <h2>{{ $t(section.title) }}</h2>
+                </v-list-item-title>
+                <div v-html="$t(section.content)" ></div>
+              </v-list-item>
+            </v-list-item>
+          </v-list>
+        </v-col>
+      </v-container>
+    </v-main>
+    <Footer></Footer>
+  </v-app>
 </template>
-
+<script setup>
+import Navbar from "./Navbar.vue";
+import Footer from "./Footer.vue";
+</script>
 <script>
 export default {
   data() {
@@ -37,11 +44,8 @@ export default {
     };
   },
 };
+
 </script>
 
 <style scoped>
-
-.container-with-border {
-  border-top: 1px solid #ccc;
-}
 </style>
