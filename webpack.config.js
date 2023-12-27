@@ -1,5 +1,4 @@
 const Encore = require('@symfony/webpack-encore');
-const Dotenv = require('dotenv-webpack');
 
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
@@ -32,7 +31,6 @@ Encore
         options['__VUE_OPTIONS_API__'] = true;
         options['__VUE_PROD_DEVTOOLS__'] = false;
     })
-    .addPlugin(new Dotenv());
 ;
 
 module.exports = Encore.getWebpackConfig();

@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="WIP Mentions Légals">
+    <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="Mode Sombre">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/i118n.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/i118n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/translations/messages.en.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/translations/messages.en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/translations/messages.fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/translations/messages.fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/MentionsLegal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/MentionsLegal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vuetify.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vuetify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +25,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="darkMode" />
+                    <option name="lastUsedInstant" value="1703411396" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1703411325" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -204,6 +224,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/stimulus-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/ux-turbo" />
       <path value="$PROJECT_DIR$/vendor/twbs/bootstrap-icons" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan 2" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -214,27 +235,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/user/Documents/Portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/user/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "darkMode",
+    "last_opened_file_path": "/Users/user/Documents/Portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/Users/user/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -266,7 +287,7 @@
       <workItem from="1703334725721" duration="68000" />
       <workItem from="1703334892543" duration="66000" />
       <workItem from="1703334963929" duration="15258000" />
-      <workItem from="1703409379362" duration="1707000" />
+      <workItem from="1703409379362" duration="48354000" />
     </task>
     <task id="LOCAL-00001" summary="Add project Datawave">
       <option name="closed" value="true" />
@@ -300,7 +321,111 @@
       <option name="project" value="LOCAL" />
       <updated>1703409451813</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add page legal notice">
+      <option name="closed" value="true" />
+      <created>1703411139279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703411139279</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wip navbar">
+      <option name="closed" value="true" />
+      <created>1703417218992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703417218992</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Navbar update">
+      <option name="closed" value="true" />
+      <created>1703614775168</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703614775168</updated>
+    </task>
+    <task id="LOCAL-00008" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703678576969</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703678576969</updated>
+    </task>
+    <task id="LOCAL-00009" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703684998659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703684998659</updated>
+    </task>
+    <task id="LOCAL-00010" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703685813263</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703685813263</updated>
+    </task>
+    <task id="LOCAL-00011" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703685819714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703685819714</updated>
+    </task>
+    <task id="LOCAL-00012" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703689128228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703689128228</updated>
+    </task>
+    <task id="LOCAL-00013" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703691273585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703691273585</updated>
+    </task>
+    <task id="LOCAL-00014" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1703693437677</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703693437677</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Mode Sombre">
+      <option name="closed" value="true" />
+      <created>1703698130089</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703698130089</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Mode Sombre">
+      <option name="closed" value="true" />
+      <created>1703703832663</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703703832663</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Mode Sombre">
+      <option name="closed" value="true" />
+      <created>1703704959532</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703704959532</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +436,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="darkMode" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -319,8 +456,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project Datawave" />
+    <MESSAGE value="Mentions Légals" />
     <MESSAGE value="WIP Mentions Légals" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP Mentions Légals" />
+    <MESSAGE value="Add page legal notice" />
+    <MESSAGE value="wip navbar" />
+    <MESSAGE value="Navbar update" />
+    <MESSAGE value="Mode" />
+    <MESSAGE value="WIP" />
+    <MESSAGE value="Mode Sombre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mode Sombre" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

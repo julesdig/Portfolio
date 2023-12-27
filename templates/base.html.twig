@@ -2,18 +2,15 @@
 <html lang="fr" >
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}English Project!{% endblock %}</title>
-        <link rel="icon" href="img/logo.png">
+        <title>{% block title %}Portfolio{% endblock %}</title>
+        <link rel="icon" href="img/logo-noir.png">
         {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
         {% endblock %}
         {{ encore_entry_script_tags('app') }}
     </head>
     <body>
-      <div {{ vue_component('Navbar') }}></div>
         {% block body %}
-      
         {% endblock %}
-     <div {{ vue_component('Footer') }}></div>
     </body>
 </html>
