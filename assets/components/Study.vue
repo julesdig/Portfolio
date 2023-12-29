@@ -92,8 +92,9 @@
           </div>
         </div>
       </v-col>
+
       <v-col cols="6" class="d-flex justify-center section-img mb-3">
-        <v-card variant="flat" :class="{'studing': true, 'dark-background': isDarkMode,'d-flex align-center justify-center':true}">
+        <v-card variant="flat" :class="{'card':true, 'dark-background': isDarkMode,'d-flex align-center justify-center':true}">
           <v-img :width= "700" aspect-ratio="16/9" src="/img/telecom.png">
             <template v-slot:placeholder>
               <div class="d-flex align-center justify-center fill-height">
@@ -116,9 +117,10 @@ watchEffect(() => {
   isDarkMode.value = theme.global.current.value.dark
 })
 </script>
-<style lang="scss">
-
-
+<style scoped>
+.card{
+  background-color: #f5f5f5;
+}
 .studing {
   height: 100vh;
   display: flex;
