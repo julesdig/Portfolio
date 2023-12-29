@@ -9,6 +9,10 @@ ARG SERVER_PATH
 COPY conf/nginx.conf /etc/nginx/nginx.conf
 COPY conf/default.conf /etc/nginx/conf.d/default.conf
 
+# Copier les certificats depuis le répertoire actuel (où se trouve le Dockerfile)
+COPY ssl/fullchain.pem /etc/nginx/ssl/fullchain.pem
+COPY ssl/privkey.pem /etc/nginx/ssl/privkey.pem
+COPY ssl/dhparam.pem /etc/nginx/dhparam.pem
 RUN apk add --update openssl tzdata curl \
     && ln -sf /usr/share/zoneinfo/Etc/$TZ  /etc/localtime \
     && echo $TZ > /etc/timezone \
@@ -18,11 +22,6 @@ RUN apk add --update openssl tzdata curl \
     && chown -R ${USER}:${USER} ${WORKDIR_SERVER} \
     && chmod -R 755 ${WORKDIR_SERVER} \
     && mkdir -p /etc/nginx/ssl \
-    && openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
-        -keyout /etc/nginx/ssl/privkey.pem \
-        -out /etc/nginx/ssl/fullchain.pem \
-        -subj /CN=${SERVER_NAME} \
-    && openssl dhparam -out /etc/nginx/dhparam.pem 2048 \
     && sed -i "s#__user#${USER}#g" /etc/nginx/nginx.conf \
     && sed -i "s#__working_dir#${WORKDIR_SERVER}#g" /etc/nginx/conf.d/default.conf \
     && sed -i "s#__server_path#${SERVER_PATH}#g" /etc/nginx/conf.d/default.conf \
@@ -31,3 +30,4 @@ RUN apk add --update openssl tzdata curl \
     && rm -rf /var/cache/apk/*
 
 RUN chown -R ${USER}:${USER} /etc/nginx/ssl/
+
