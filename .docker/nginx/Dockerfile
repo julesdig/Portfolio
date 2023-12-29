@@ -1,9 +1,10 @@
 FROM nginx:1.25.1-alpine
 
-ARG SERVER_NAME
-ARG WORKDIR_SERVER
-ARG TZ
 ARG USER
+ARG TZ
+ARG WORKDIR_SERVER
+ARG SERVER_NAME
+ARG SERVER_PATH
 
 COPY conf/nginx.conf /etc/nginx/nginx.conf
 COPY conf/default.conf /etc/nginx/conf.d/default.conf
