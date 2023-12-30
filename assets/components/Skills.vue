@@ -2,7 +2,7 @@
   <div id="skills">
     <div v-for="(section, index) in sections" :key="index" >
       <v-container fluid :class="[section.class, {'dark-background': isDarkMode && section.class === 'skillsGrey', 'd-flex align-center justify-center': true}]">
-        <div v-if="section.imagePosition === 'left'" class="col-md-6 d-flex justify-content-center section-img mb-3">
+        <v-col cols="6" md="6" v-if="section.imagePosition === 'left'" class="d-flex justify-center section-img mb-3">
           <v-card variant="flat" :class="{'section.class': true, 'dark-background': isDarkMode && section.class === 'skillsGrey','d-flex align-center justify-center':true}">
             <v-img :width= "700" aspect-ratio="16/9" :src="section.image" :alt="section.title">
               <template v-slot:placeholder>
@@ -12,7 +12,7 @@
               </template>
             </v-img>
           </v-card>
-        </div>
+        </v-col>
         <v-col cols="6" md="6" class="d-flex justify-center skill ">
           <div class="skill__content">
             <h1 class="skill__title" v-if="index === 0">{{ $t('dashboard.projects.title') }}</h1>
@@ -25,7 +25,7 @@
             </div>
           </div>
         </v-col>
-        <v-col cols="6" md="md" v-if="section.imagePosition === 'right'" class="d-flex justify-center section-img mb-3">
+        <v-col cols="6" md="6" v-if="section.imagePosition === 'right'" class="d-flex justify-center section-img mb-3">
           <v-card variant="flat" :class="{'section.class': true, 'dark-background': isDarkMode && section.class === 'skillsGrey','d-flex align-center justify-center':true}">
             <v-img :width= "700" aspect-ratio="16/9" :src="section.image" :alt="section.title">
               <template v-slot:placeholder>
