@@ -14,11 +14,11 @@
         "title": "Legal Notice",
         "information": {
             "title": "1. General Information:",
-            "content": "Site Name: digonnetjules.fr<br />Owner: Digonnet Jules <br />Address: Mendigoules, 43190 Tence<br />Email Address: judigonnet@gmail.com"
+            "content": "Site Name: digonnetjules.fr. Owner: Digonnet Jules . Address: Mendigoules, 43190 Tence. Email Address: {email}"
         },
         "hosting": {
             "title": "2. Hosting:",
-            "content": "Hosted by: OVH<br /> Address: 59820 Gravelines, Nord-Pas-de-Calais-Picardie, France"
+            "content": "Hosted by: OVH. Address: 59820 Gravelines, Nord-Pas-de-Calais-Picardie, France"
         },
         "intellectualProperty": {
             "title": "3. Intellectual Property:",
@@ -42,7 +42,7 @@
         },
         "contact": {
             "title": "8. Contact:",
-            "content": "For any questions or concerns regarding these legal notices, please contact us at the following email address: judigonnet@gmail.com."
+            "content": "For any questions or concerns regarding these legal notices, please contact us at the following email address: {email}"
         }
     },
     "dashboard": {
