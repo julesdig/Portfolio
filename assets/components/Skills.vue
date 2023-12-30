@@ -82,7 +82,7 @@ const sections = [
     image: '/img/EspaceClient.png',
     title: 'dashboard.projects.mon_entreprise.title',
     description: 'dashboard.projects.mon_entreprise.description',
-    skills: ['php', 'html', 'css', 'postgresql', 'bootstrap', 'javascript', 'python', 'fastapi', 'symfony', 'docker', 'git'],
+    skills: ['php', 'html', 'css', 'postgresql', 'bootstrap', 'javascript', 'python', 'fastapi', 'symfony', 'docker', 'git','linux'],
   },
   {
     class: 'skillsWhyte',
@@ -90,7 +90,7 @@ const sections = [
     image: '/img/projectEngineer.png',
     title: 'dashboard.projects.portfolio_ecole_ingenieur.title',
     description: 'dashboard.projects.portfolio_ecole_ingenieur.description',
-    skills: ['php', 'html', 'css', 'mysql', 'bootstrap', 'javascript', 'vuejs', 'symfony','docker', 'git'],
+    skills: ['php', 'html', 'css', 'mysql', 'vuetify', 'javascript', 'vuejs', 'symfony','docker', 'git'],
   },
   {
     class: 'skillsGrey',
