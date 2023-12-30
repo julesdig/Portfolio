@@ -15,11 +15,5 @@ const i18n = createI18n({
   locale: 'fr',
   fallbackLocale: 'en',
   messages: loadLocaleMessages(),
-  __dangerouslyDisableHtml: false,
-  runtimeOnly: false,
-  allowHTMLMessage: true,
-  legacy: false,
-  allowComposition: true,
-  globalInjection: true,
 });
 export default i18n;
