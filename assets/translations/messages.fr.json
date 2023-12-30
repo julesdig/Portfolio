@@ -121,7 +121,9 @@
                 "mysql": "MySQL",
                 "postgresql": "PostgreSQL",
                 "docker": "Docker",
-                "git": "Git/GitHub"
+                "git": "Git/GitHub",
+                "linux": "Linux",
+                "vuetify": "Vuetify"
         },
         "projects": {
             "title": "Mes projets",
@@ -143,7 +145,7 @@
             },
             "portfolio_ecole_ingenieur": {
               "title": "Portfolio",
-              "description": "Mon portfolio actuel reflète ma formation et mes compétences en constante évolution. Je travaille avec Symfony 7 en tant que framework principal, tout en m'immergeant dans l'apprentissage de Vue.js 3 pour des applications frontend dynamiques. Mes connaissances en HTML, CSS, Bootstrap, JavaScript, Docker et PHP continuent de s'enrichir. J'exploite ces compétences en constante évolution pour développer des projets web de qualité tout en restant à la pointe des dernières technologies."
+              "description": "Mon portfolio actuel reflète ma formation et mes compétences en constante évolution. Je travaille avec Symfony 7 en tant que framework principal, tout en m'immergeant dans l'apprentissage de Vue.js 3 et vuetify pour des applications frontend dynamiques. Mes connaissances en HTML, CSS, JavaScript, Docker et PHP continuent de s'enrichir. J'exploite ces compétences en constante évolution pour développer des projets web de qualité tout en restant à la pointe des dernières technologies."
             },
             "datawave": {
                 "title": "Datawave",

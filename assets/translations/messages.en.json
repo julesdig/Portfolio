@@ -121,7 +121,9 @@
             "mysql": "MySQL",
             "postgresql": "PostgreSQL",
             "docker": "Docker",
-            "git": "Git/GitHub"
+            "git": "Git/GitHub",
+            "linux": "Linux",
+            "vuetify": "Vuetify"
         },
         "projects": {
             "title": "My Projects",
@@ -143,7 +145,7 @@
             },
             "portfolio_ecole_ingenieur": {
                 "title": "Portfolio",
-                "description": "My current portfolio reflects my ever-evolving education and skills. I work with Symfony 7 as the main framework while delving into learning Vue.js 3 for dynamic frontend applications. My knowledge in HTML, CSS, Bootstrap, JavaScript, Docker, and PHP continues to grow. I leverage these ever-evolving skills to develop quality web projects while staying at the forefront of the latest technologies."
+                "description": "My current portfolio reflects my ever-evolving education and skills. I work with Symfony 7 as the main framework while delving into learning Vue.js 3 and vuetify for dynamic frontend applications. My knowledge in HTML, CSS, JavaScript, Docker, and PHP continues to grow. I leverage these ever-evolving skills to develop quality web projects while staying at the forefront of the latest technologies."
             },
             "datawave": {
                 "title": "Datawave",
