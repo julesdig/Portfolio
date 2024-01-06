@@ -2,8 +2,11 @@
 <html lang="fr" >
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Portfolio{% endblock %}</title>
-        <link rel="icon" href="img/logo-noir.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Portfolio de Jules Digonnet, étudiant en école d'ingénieur de Télécom en alternance chez Nov'in. Découvrez ses compétences et réalisations.">
+        <meta name="robots" content="index, follow">
+        <title>Digonnet Jules : {% block title %}{% endblock %}</title>
+        <link rel="icon" href="/img/logo-noir.png" alt="Digonnet Jules">
         {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
         {% endblock %}

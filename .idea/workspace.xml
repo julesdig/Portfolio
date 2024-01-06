@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="ssl auto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/Skills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Skills.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="readme" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,8 +42,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="readme" />
-                    <option name="lastUsedInstant" value="1703935661" />
+                    <option name="branchName" value="Seo" />
+                    <option name="lastUsedInstant" value="1704566599" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -366,7 +366,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Seo",
     "last_opened_file_path": "/Users/user/Documents/Portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -605,7 +605,8 @@
     <MESSAGE value="Production" />
     <MESSAGE value="fix bug front end" />
     <MESSAGE value="update Readme and information in website" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Readme and information in website" />
+    <MESSAGE value="wip ontact" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip ontact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
