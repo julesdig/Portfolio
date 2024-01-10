@@ -1,4 +1,2 @@
 User-agent: *
-
-
 Sitemap: https://digonnetjules.fr/sitemap/sitemap.xml
