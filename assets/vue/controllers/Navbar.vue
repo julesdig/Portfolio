@@ -1,14 +1,12 @@
 <template>
   <v-app-bar rounded>
-    <v-img
-        :src="logoSrc"
-    ></v-img>
+    <v-img :src="logoSrc"></v-img>
     <v-spacer></v-spacer>
     <v-row>
       <v-col v-for="n in 3" :key="n" cols="4">
         <v-list lines="one">
           <v-list-item>
-            <v-btn variant="text" class="responsive-text"  :href="'/home/#' + ['company', 'study', 'skills'][n-1]">{{ $t('navbar.' + ['company', 'study', 'skills'][n-1]) }}</v-btn>
+            <v-btn variant="text" class="responsive-text"  :href="'/#' + ['company', 'study', 'skills'][n-1]">{{ $t('navbar.' + ['company', 'study', 'skills'][n-1]) }}</v-btn>
           </v-list-item>
         </v-list>
       </v-col>

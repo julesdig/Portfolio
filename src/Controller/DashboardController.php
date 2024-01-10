@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class DashboardController extends AbstractController
 {
-    #[Route('/home', name: 'home')]
+    #[Route('/', name: 'index')]
     public function home(Request $request): Response
     {
         $form = $this->createForm(ContactFormType::class);
@@ -23,9 +23,9 @@ class DashboardController extends AbstractController
         ]);
     }
 
-    #[Route('/', name: 'index')]
+    #[Route('/home', name: 'home')]
     public function index(): Response
     {
-        return $this->redirectToRoute('home');
+        return $this->redirectToRoute('index');
     }
 }
