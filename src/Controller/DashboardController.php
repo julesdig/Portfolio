@@ -22,10 +22,4 @@ class DashboardController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
-
-    #[Route('/home', name: 'home')]
-    public function index(): Response
-    {
-        return $this->redirectToRoute('index');
-    }
 }
