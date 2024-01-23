@@ -95,7 +95,7 @@
 
       <v-col cols="6" class="d-flex justify-center section-img mb-3">
         <v-card variant="flat" :class="{'card':true, 'dark-background': isDarkMode,'d-flex align-center justify-center':true}">
-          <v-img :width= "700" aspect-ratio="16/9" src="/img/telecom.png">
+          <v-img :width= "700" aspect-ratio="16/9" src="/img/telecom.png" alt="Logo de Télécom Saint-Étienne, France">
             <template v-slot:placeholder>
               <div class="d-flex align-center justify-center fill-height">
                 <v-progress-circular color="grey-lighten-4" indeterminate></v-progress-circular>

@@ -128,26 +128,32 @@
         "projects": {
             "title": "Mes projets",
             "fc_tence_foot": {
+              "alt": "Projet FC Tence",
               "title": "FC Tence (05/31/2021-06/27/2021)",
               "description": " Au cours de mon stage de développement web, j'ai créé un site en utilisant HTML, CSS et PHP Object. J'ai conçu une interface responsive, mis en place une gestion de données interactive, optimisé les performances et renforcé la sécurité. Ce projet a consolidé mes compétences en développement web et m'a permis de créer un site fonctionnel."
             },
             "mairie_tence": {
+              "alt": "Projet Mairie de Tence",
               "title": "Mairie de Tence (01/03/2022-02/11/2022)",
               "description": " Lors de mon stage en développement web à la Mairie de Tence, j'ai créé un site entièrement personnalisé en utilisant HTML, CSS, Bootstrap, et un framework PHP que j'ai développé de A à Z. J'ai conçu une interface conviviale et intégré des fonctionnalités interactives pour améliorer la présence en ligne de la Mairie."
             },
             "portfolio_bts": {
+              "alt": "Premier Portfolio réalisé en BTS",
               "title": "Portfolio BTS",
               "description": "Mon portfolio BTS en développement web est le fruit de mon engagement dans la création complète d'un site web. J'ai utilisé un éventail de technologies, notamment HTML, CSS, JavaScript, Bootstrap, PHP, et le concept de programmation orientée objet (PHP Object). J'ai conçu ce site web de A à Z, en faisant de la première mise en ligne une étape majeure de mon parcours."
             },
             "mon_entreprise": {
+              "alt": "Espace client de mon entreprise Datiplus",
               "title": "Espace client Datiplus",
               "description": "Actuellement en période d'apprentissage, j'ai eu l'opportunité de contribuer au projet de l'espace client 'Datiplus' basé sur le framework PHP Symfony. Au sein de cette équipe, j'ai pu participer à l'amélioration de fonctionnalités existantes, à la création de nouvelles fonctionnalités et à l'intégration d'un nouveau produit. Cette expérience m'a non seulement permis d'apprendre davantage sur Symfony, mais également de découvrir le monde professionnel du développement web, ce qui enrichit ma formation actuelle."
             },
             "portfolio_ecole_ingenieur": {
+              "alt": "Portfolio de l'école d'ingénieur Télécom Saint-Étienne",
               "title": "Portfolio",
               "description": "Mon portfolio actuel reflète ma formation et mes compétences en constante évolution. Je travaille avec Symfony 7 en tant que framework principal, tout en m'immergeant dans l'apprentissage de Vue.js 3 et vuetify pour des applications frontend dynamiques. Mes connaissances en HTML, CSS, JavaScript, Docker et PHP continuent de s'enrichir. J'exploite ces compétences en constante évolution pour développer des projets web de qualité tout en restant à la pointe des dernières technologies."
             },
             "datawave": {
+                "alt": "Projet Datawave workshop Green IT 2023 avec le département de la Loire et Télécom Saint-Étienne",
                 "title": "Datawave",
                 "description": "Le projet Datawave a été conçu lors du workshop Green IT, organisé par Télécom Saint-Étienne en collaboration avec le Département de la Loire. Notre mission : développer des solutions numériques innovantes pour une gestion durable et efficiente de l'eau. Ce partenariat a créé un environnement propice à l'émergence d'idées novatrices, et le projet Datawave incarne notre engagement envers des pratiques responsables dans le domaine de la gestion de l'eau."
             }

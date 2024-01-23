@@ -4,7 +4,7 @@
       <v-container fluid :class="[section.class, {'dark-background': isDarkMode && section.class === 'skillsGrey', 'd-flex align-center justify-center': true}]">
         <v-col cols="6" md="6" v-if="section.imagePosition === 'left'" class="d-flex justify-center section-img mb-3">
           <v-card variant="flat" :class="{'section.class': true, 'dark-background': isDarkMode && section.class === 'skillsGrey','d-flex align-center justify-center':true}">
-            <v-img :width= "700" aspect-ratio="16/9" :src="section.image" :alt="section.title">
+            <v-img :width= "700" aspect-ratio="16/9" :src="section.image" :alt="$t(section.alt)">
               <template v-slot:placeholder>
                 <div class="d-flex align-center justify-center fill-height">
                   <v-progress-circular color="grey-lighten-4" indeterminate></v-progress-circular>
@@ -27,7 +27,7 @@
         </v-col>
         <v-col cols="6" md="6" v-if="section.imagePosition === 'right'" class="d-flex justify-center section-img mb-3">
           <v-card variant="flat" :class="{'section.class': true, 'dark-background': isDarkMode && section.class === 'skillsGrey','d-flex align-center justify-center':true}">
-            <v-img :width= "700" aspect-ratio="16/9" :src="section.image" :alt="section.title">
+            <v-img :width= "700" aspect-ratio="16/9" :src="section.image" :alt="$t(section.alt)">
               <template v-slot:placeholder>
                 <div class="d-flex align-center justify-center fill-height">
                   <v-progress-circular color="grey-lighten-4" indeterminate></v-progress-circular>
@@ -57,6 +57,7 @@ const sections = [
     imagePosition: 'left',
     image: '/img/projetsSiteduclubdefootFcTence.jpg',
     title: 'dashboard.projects.fc_tence_foot.title',
+    alt: 'dashboard.projects.fc_tence_foot.alt',
     description: 'dashboard.projects.fc_tence_foot.description',
     skills: ['php', 'html', 'css', 'mysql'],
   },
@@ -65,6 +66,7 @@ const sections = [
     imagePosition: 'right',
     image: '/img/mairieTence.png',
     title: 'dashboard.projects.mairie_tence.title',
+    alt: 'dashboard.projects.mairie_tence.alt',
     description: 'dashboard.projects.mairie_tence.description',
     skills: ['php', 'html', 'css', 'mysql', 'bootstrap','git'],
   },
@@ -73,6 +75,7 @@ const sections = [
     imagePosition: 'left',
     image: '/img/projectBTS.png',
     title: 'dashboard.projects.portfolio_bts.title',
+    alt: 'dashboard.projects.portfolio_bts.alt',
     description: 'dashboard.projects.portfolio_bts.description',
     skills: ['php', 'html', 'css', 'mysql', 'bootstrap', 'javascript', ],
   },
@@ -81,6 +84,7 @@ const sections = [
     imagePosition: 'right',
     image: '/img/EspaceClient.png',
     title: 'dashboard.projects.mon_entreprise.title',
+    alt: 'dashboard.projects.mon_entreprise.alt',
     description: 'dashboard.projects.mon_entreprise.description',
     skills: ['php', 'html', 'css', 'postgresql', 'bootstrap', 'javascript', 'python', 'fastapi', 'symfony', 'docker', 'git','linux'],
   },
@@ -89,6 +93,7 @@ const sections = [
     imagePosition: 'left',
     image: '/img/projectEngineer.png',
     title: 'dashboard.projects.portfolio_ecole_ingenieur.title',
+    alt: 'dashboard.projects.portfolio_ecole_ingenieur.alt',
     description: 'dashboard.projects.portfolio_ecole_ingenieur.description',
     skills: ['php', 'html', 'css', 'mysql', 'vuetify', 'javascript', 'vuejs', 'symfony','docker', 'git'],
   },
@@ -97,6 +102,7 @@ const sections = [
     imagePosition: 'right',
     image: '/img/Datawave.png',
     title: 'dashboard.projects.datawave.title',
+    alt: 'dashboard.projects.datawave.alt',
     description: 'dashboard.projects.datawave.description',
     skills: ['php', 'html', 'css', 'mysql','docker', 'git'],
   },
