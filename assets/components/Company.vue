@@ -2,7 +2,7 @@
   <v-container fluid id="company" class="container-company d-flex align-center justify-center">
       <v-col cols="6"  class="d-flex align-center justify-center section-img ">
         <v-card variant="flat" class="d-flex align-center justify-center">
-          <v-img :width="700" aspect-ratio="16/9" src="/img/Datiplus.jpeg">
+          <v-img :width="700" aspect-ratio="16/9" src="/img/Datiplus.jpeg" alt="La photo présente Jules Digonnet associé à la marque DatiPlus de Nov'in.">
             <template v-slot:placeholder>
               <div class="d-flex align-center justify-center fill-height">
                 <v-progress-circular color="grey-lighten-4" indeterminate></v-progress-circular>

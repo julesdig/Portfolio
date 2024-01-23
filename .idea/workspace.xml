@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="ssl auto">
-      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="google search console 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/Company.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Company.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/Skills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Skills.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/Study.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Study.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/translations/messages.fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/translations/messages.fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LanguageController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/espaceclient-dati-plus-admin-equipment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robot.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,9 @@
         <option value="Vue Composition API Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -385,7 +390,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;updayte&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;no__redirect&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/user/Documents/Portfolio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -437,6 +442,8 @@
       <workItem from="1703409379362" duration="48354000" />
       <workItem from="1703930878347" duration="2975000" />
       <workItem from="1703935643460" duration="1049000" />
+      <workItem from="1705435673670" duration="163000" />
+      <workItem from="1706038193161" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="Add project Datawave">
       <option name="closed" value="true" />
@@ -598,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704913138169</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="google search console 2">
+      <option name="closed" value="true" />
+      <created>1704913886953</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704913886953</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +660,8 @@
     <MESSAGE value="improve seo" />
     <MESSAGE value="Sitemap" />
     <MESSAGE value="google search console" />
-    <option name="LAST_COMMIT_MESSAGE" value="google search console" />
+    <MESSAGE value="google search console 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="google search console 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,7 +674,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/assets/vue/controllers/Dashboard.vue</url>
           <line>14</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

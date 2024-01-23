@@ -1,6 +1,6 @@
 <template>
   <v-app-bar rounded>
-    <v-img :src="logoSrc"></v-img>
+    <v-img :src="logoSrc" alt="Digonnet Jules "></v-img>
     <v-spacer></v-spacer>
     <v-row>
       <v-col v-for="n in 3" :key="n" cols="4">

@@ -5,6 +5,7 @@
               :height="90"
               aspect-ratio="4/3"
               :src="logoSrc"
+              alt="Digonnet Jules"
           ></v-img>
         </v-col>
         <v-col cols="auto" class="d-flex align-center justify-center">
