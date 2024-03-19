@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9c6e7be7-a0be-4bd0-9085-0667a0eec78c" name="Changes" comment="google search console 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/Company.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Company.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/Skills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Skills.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/Study.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Study.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/translations/messages.fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/translations/messages.fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vue/controllers/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/espaceclient-dati-plus-admin-equipment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robot.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LanguageController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,6 +371,10 @@
       <path value="$PROJECT_DIR$/english_project/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/english_project/vendor/symfony/web-profiler-bundle" />
       <path value="$PROJECT_DIR$/english_project/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony 2/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony 2/string" />
+      <path value="$PROJECT_DIR$/vendor/twbs 2/bootstrap-icons" />
+      <path value="$PROJECT_DIR$/vendor/symfony 2/panther" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -401,12 +400,12 @@
     &quot;ts.external.directory.path&quot;: &quot;/Users/user/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img" />
